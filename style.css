@@ -1,0 +1,14 @@
+.Actual-Page{
+    background-image: url(bg1.jpg)
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+   
+}
+
+.big{
+    background-image:  linear-gradient(90.46deg, rgba(0, 0, 0, 0.7) 0.34%, rgba(29, 1, 64, 0.38) 14.36%, rgba(0, 0, 0, 0) 22.63%, rgba(0, 0, 0, 0) 80.17%, rgba(29, 1, 64, 0.38) 90.38%, rgba(0, 0, 0, 0.7) 99.56%);
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    scale: 120%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 17px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFF;
+}
+
+.login{
+    display: flex;
+    align-items: column;
+}

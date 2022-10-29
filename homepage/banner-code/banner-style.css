@@ -1,0 +1,83 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+
+
+.left_img{
+    float: left;
+    
+}
+
+.paragraph{
+    color:aliceblue;
+    position: absolute;
+    top: 30%;
+    left: 49%;
+    /* Desktop/Headline 1 */
+
+font-family: 'Roboto';
+font-style: normal;
+
+font-size: 80px;
+line-height: 112px;
+
+
+letter-spacing: -1.5px;
+}
+
+.parasub{
+    color:aliceblue;
+    position: relative;
+    padding-top: 420px;
+}
+
+.parasub::first-line {
+    color:aliceblue;
+    color: #DB6451;
+  }
+
+  @keyframes change {
+    0% {
+        filter: invert(27%) sepia(100%) saturate(4731%) hue-rotate(352deg) brightness(91%) contrast(117%);
+    }
+
+    15% {
+        filter: invert(99%) sepia(87%) saturate(2663%) hue-rotate(6deg) brightness(108%) contrast(96%);
+    }
+
+    30% {
+        filter: invert(71%) sepia(79%) saturate(5246%) hue-rotate(81deg) brightness(130%) contrast(106%);
+        
+    }
+    45%{
+        filter: invert(74%) sepia(80%) saturate(1489%) hue-rotate(123deg) brightness(109%) contrast(96%);
+    }
+
+    60%{
+        filter: invert(14%) sepia(52%) saturate(7495%) hue-rotate(246deg) brightness(86%) contrast(146%);
+    }
+
+    75% {
+        filter: invert(22%) sepia(62%) saturate(4092%) hue-rotate(283deg) brightness(96%) contrast(129%);
+    }
+    100% {
+        filter: invert(27%) sepia(99%) saturate(6388%) hue-rotate(356deg) brightness(102%) contrast(123%);
+    }
+    
+  }
+.right_img{
+    
+    position: relative;
+    float: right;
+
+    animation-name: change;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+}
+
