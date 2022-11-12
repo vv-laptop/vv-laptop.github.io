@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMA Founation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;0,900;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
+<script>  
+$(function(){ 
+  $("#Navigation_Bar").load("navbar.html");  
+  $("#Banner").load("homepage/banner-code/banner.html"); 
+  $("#Headbar").load("homepage/headbar-code/headbar.html");  
+  $("#Paintings").load("homepage/products-code/products.html");  
+  $("#Auction").load("homepage/auction-code/auction.html");  
+  $("#Footer").load("footer.html");  
+  
+}); 
+</script> 
+    
+</head>
+<body>
+
+    <div class="Actual-Page">
+
+    
+  
+    <div class="container">
+        <div id = 'Navigation_Bar'></div>
+        <div id = 'Banner'></div>
+        <!--  <div id = 'Headbar'></div> -->
+       
+        <div id = 'Paintings'></div>
+        <div id = 'Auction'></div>
+        <div id = 'Footer'></div>
+    </div>
+
+</div>
+</body>
+
+</html>

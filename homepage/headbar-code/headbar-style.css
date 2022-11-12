@@ -1,0 +1,54 @@
+.headbar-title p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 60px;
+
+    background: -webkit-linear-gradient(0.09deg, #C30000 -1.88%, #BE6803 10.07%, #C8C000 22.63%, #42FF00 27.87%, #00C58A 35.72%, #0067C7 47.24%, #1A00B7 59.28%, #8000CE 67.66%, #CA00B6 78.65%, #DD0050 87.55%, #E60000 98.64%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+.headbar-title{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 30px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    
+    font-size: 10px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.5px;
+
+    color: #1D1D1F;
+
+}
+
+.headbar-title::after{
+    content: '';
+    background: #8000CE;
+    
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+
+.headbar-sub{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding:5px;
+}

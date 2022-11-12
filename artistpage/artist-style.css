@@ -1,0 +1,21 @@
+
+.hj{
+  display: flex;
+  width: 128px;
+  
+  top: 250px;
+
+
+  background: url(artist1.jpg), #BDBDBD;
+  border-radius: 50%;
+}
+
+.artist_pic{
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 124px;
+  top: 250px;
+
+  border-radius: 62.5px;
+}
