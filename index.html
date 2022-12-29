@@ -10,8 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Open+Sans:ital,wght@0,400;0,800;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Inter:wght@200;300;400;500;600;700&family=Open+Sans:ital,wght@0,400;0,800;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type = "text/css" href="style.css">
+    <link rel="stylesheet" type = "text/css" href="book.css">
 </head>
 <body>
 
@@ -21,9 +23,9 @@
             <div class="nav-bar">
             <ul>
                 
-                <a>Home</a>
-                <a>About</a>
-                <a>Profiling</a>
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./ executive-profiling.html">Profiling</a>
                 <a>Coaching</a>
                 <a>Team Work </a>
                 <a>Events</a>
@@ -41,51 +43,75 @@
 
     <div class="sidenav">
 
-        <div class="line-select" id = "part-1"></div>
-        <div class="line" id = "part-2"></div>
-        <div class="line" id = "part-3"></div>
-        <div class="line" id = "part-4"></div>
-        <div class="line" id = "part-5"></div>
+       
         
       </div>
 
     
     <div class="main">
-    <div class="front-content">
-        <div class="article-container">
-            <p>.? – “ What’s the difference that makes the difference”</p>
 
-        </div>
-
-    </div>
-
-    <div class="home-first-post">
-
-        <div class="home-first-post-text">
-
-            <h1>Hi, I'm RANI BAINS</h1>
-            <p> EXPERT IN EXECUTIVE PROFILING AND COACHING LEADERS SEEKING MEANING AND PURPOSE IN THEIR LIVES.</p>
-
-        </div>  
-
-        <div class="home-first-post-pic">
-            <div class = "rani-img-1">
-                <img src = "asserts/rani1.jpeg">
+        <div class="cover">
+            <div class="book">
+            <label for="page-1"  class="book__page book__page--1">
+                <div class="start-content-left">
+             <img src = "asserts/pageleft.png" >
             </div>
-        </div>
-        
-        
-    </div>
+            </label>
+            
+            <label for="page-2" class="book__page book__page--4">
+              <div class="page__content">
+               i am a page
+                <div class="page__number">3</div>
+              </div>
+            </label>
+              
+            <!-- Resets the page -->
+            <input type="radio" name="page" id="page-1"/>
+              
+            <!-- Goes to the second page -->
+            <input type="radio" name="page" id="page-2"/>
+            <label class="book__page book__page--2">
+              <div class="book__page-front">
+                <div class="page__content">
+                    <div class="start-content-right">
+
+            
+
+                        <h2>Rani Bains</h2>
+                       <p>“ Leadership Consultant and Executive Coach. ”</p>
+                        
+                        <p> Expert in executive profiling and coaching leaders seeking meaning and purpose in their lives.</p>
+                        
+                    </div>
+                </div>
+              </div>
+              <div class="book__page-back">
+                <div class="page__content">
+                  
+                  u too brutus ??
+                  
+                  <div class="page__number">2</div>
+                </div>
+              </div>
+            </label>
+          </div>
+          </div>
+
+    
+
+
+
 
     <div class="front-content-lead">
        
 
         <div class="front-content-1">
-            <div class="rani-img-2">
-                <img src = "asserts/rani2.jpeg" >
+            <div class="rani-tree">
+                <img src = "asserts/rani-tree 1.png" >
             </div>
 
             <div class="paragraph-1">
+                <p>“Championing Purpose Driven Leadership”</p>
                 <p> In “Turbulent Times “we need leaders who create the right
      conditions for themselves and others to be resilient, emotionally
      engaged with their work, operating with a sense of meaning and
@@ -96,6 +122,8 @@
 
 
         </div>
+
+        <div class="parallax-title"><h2>“WHAT’S THE DIFFERENCE THAT MAKES THE DIFFERENCE?"</h2></div>
 
         <div class="parallax">
             <div class="paragraph-parallax">
@@ -123,14 +151,31 @@ and business.
 
         </div>
 
-        <div class="paragraph-3">
-            <p>
-                These approaches help to: 
-<br>-Heighten personal resourcefulness and resilience.
-<br>-Inspire and empower the workforce to maximise engagement and impact.
-<br>-Identifies and mobilises diverse talent in top teams to support the drive for innovation.
-<br>-Sharpens how you connect and communicate to land messages and build supportive connections.
-            </p>
+
+        <div class="home-section-4-block">
+
+            <div class="home-section-4"><h2>These approaches help individuals lead self and others with skill.</h2></div>
+            <div class="bubbles">
+                <div class="bubble-1">
+                    <div class="bubble-1-txt">Amplifies personal <br>resilience</div>
+                </div>
+                <div class="bubble-2">
+                    <div class="bubble-2-txt">Inspired and<br> Inspiring</div>
+                </div>
+                <div class="bubble-3">
+                    <div class="bubble-3-txt">Empowers the <br>Workforce</div>
+                </div>
+                <div class="bubble-4">
+                    <div class="bubble-4-txt">Harness Diversity<br> in Teams</div>
+                </div>
+                <div class="bubble-5">
+                    <div class="bubble-5-txt">Build Strong<br> Connections</div>
+                </div>
+                <div class="bubble-6">
+                    <div class="bubble-6-txt">Influence with<br> Impact</div>
+                </div>
+            </div>
+
         </div>
 
         
@@ -159,46 +204,31 @@ and applying inspired leadership in service of delivering value-adding change.
             </p>
         </div>
 
-        <div class="front-content-4">
-            <p>The THREE STEPS COACHING ARE </p>
-
-            <div class="front-content-4-bubble">
-
-            <div class="bubble">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <p>THE DEEP-DIVE LEADERSHIP PROFILE AND PURPOSE PORTRAIT</p>
+        <div class="section-7">
+            <div class="section-7-title">
+                <h2>THREE STEPS COACHING PROGRAMME</h2>
             </div>
 
-            <div class="bubble">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <p>THE DESIGNING DESTINY DEVELOPMENT COACHING PLAN
-                    TO PROGRESS SELF, SOCIAL AND PURPOSE/PERFORMANCE MASTERY GOALS </p>
+            <div class="cards">
+                <div class="card-1">
+                    <h2>DEEP DIVE</h2>
+                    <p>COMPREHENSIVE REVIEW OF CAREER AND LIFE TO CREATE A LEADERSHIP PROFILE</p>
+                </div>
+                <div class="card-2">
+                    <h2>DESIGN DESTINY</h2>
+                    <p>CREATE A PURPOSE DRIVEN DEVELOPMENT PLAN</p>
+                </div>
+                <div class="card-3">
+                    <h2>DETERMINE RESULTS</h2> 
+                    <p>PRACTICAL, PROVEN TECHNIQUES TO ACHIEVE AND SUSTAIN
+                PROGRESS ON SET GOALS.</p>
+                </div>
             </div>
 
-            <div class="bubble">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <p>DETERMINING RESULTS USING PRACTICAL TACTICS
-                    AND SUPPORT TO CONSISTENTLY PROGRESS IN CRITICAL AREAS.</p>
-            </div>
-        </div>
-            
         </div>
 
+
+        
 
         <div >
             AS YOUR LEADERSHIP COACH MY EXPERTISE LIES IN
@@ -220,37 +250,37 @@ right focus.
         <div class="boxes">
         <div class="box">
             <p>
-                Small geometric shape here <a>INSIGHT</a>-Gain clarity and depth of self-insight needed to
-                establish your authentic character which is built on identifying strengths and values which
-                when honed and deployed help to establish presence in a deep and distinctive way
+                
+                <a>INSIGHT</a>-Gain clarity and depth of insight into current and desired leadership. Leverage strengths and values to impact in a powerful and distinctive way with character and presence.
             </p>
         </div>
+        <br>
     
 
         <div class="box">
             <p>
-                Small geometric shape here <a>RIGHT FOCUS</a>-Help you identify the self-management habits
-                in a customised and thoughtful way to progress set goals. Systematically building and
-                harnessing powerful inner resources helps to create ‘bio-fuel’ needed to ignite innate creative
-                intelligence and enact authentic power.
+                <a>RIGHT FOCUS</a>-Establish goals in critical areas of Self , Social, Performance and Purpose Mastery.
+                Apply important evidence-based habits to generate bio-fuel which delivers inner resourcefulness
+                and sustainability in pursuit of goals.
             </p>
        </div> 
+       <br>
 
        <div class="box">
             <p>
-                Small shape here <a>MAINTAIN CONSISTENCY</a> -Help you be self committed and
-                consistent by embedding important new habits which give you ‘the edge’ in all aspects of life
-                through using powerful practical interventions backed by science and evidence.
+                <a>MAINTAIN CONSISTENCY</a> -Sustain self-commitment to progressing goals through regular
+                accountability check-ins and practical tactics.
             </p>
        </div>       
 
        <div class="box">
             <p>
-                Small geometric shape here <a>SUSTAIN MOMENTUM</a>-Tackle the inner barriers which are
+                <a>SUSTAIN MOMENTUM</a>-Tackle the inner barriers which are
                 universally prevalent but hidden such as Imposter Syndrome and Procrastination to ensure
                 you assume control and are in the driving seat of your life.
             </p>
        </div>
+       <br>
 
        <div class="box">
             <p>

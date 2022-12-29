@@ -1,0 +1,428 @@
+.client-quote-title{
+
+    color: #000;
+    font-family: 'Inter';
+    font-size: 27px;
+    display: flex;
+    margin-left: 150px;
+    
+
+}
+.client-quotes-section{
+    background-color: #f7f5f5;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 700px;
+    overflow: hidden;
+}
+
+
+@keyframes identifier {
+    0%{}
+
+    100%{
+        
+
+    }
+    
+}
+
+.client-quote-1:not(hover)  ~ .client-quote-2{
+    margin-left: 10%;
+
+}
+
+.client-quote-1{
+    background-color:#fafafa;
+    margin-left: 5%;
+    z-index: 1;
+    position: absolute;
+    height: 500px;
+    width: 35%;
+    border-left: 5px solid red;
+}
+
+.client-quote-1 p{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 70px;
+    color: #434343;
+    
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Inter';
+    text-align: justify;
+}
+
+.client-quote-1 h2{
+    font-family: 'Inter';
+    padding: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #434343;
+}
+
+@keyframes slide-40 {
+    0%{
+         margin-left: 10%;
+    }
+    100%{
+        margin-left: 40%;
+    }
+    
+}
+
+
+.client-quote-1:hover ~ .client-quote-2 {
+    
+     animation: slide-40 0.7s ;
+     margin-left: 40%;
+    
+}
+.client-quote-1:hover ~ .client-quote-3 {
+    margin-left: 45%;
+}
+
+.client-quote-1:hover ~ .client-quote-4 {
+    margin-left: 50%;
+}
+
+.client-quote-1:hover ~ .client-quote-5 {
+    margin-left: 55%;
+}
+
+.client-quote-1:hover ~ .client-quote-6 {
+    margin-left: 60%;
+}
+
+
+
+
+
+.client-quote-2{
+    background-color:#fafafa;
+    margin-left: 10%;
+    
+    z-index: 2;
+    position: absolute;
+    height: 500px;
+    width: 35%;
+    border-left: 5px solid rgb(0, 204, 255);
+}
+.client-quote-2 p{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 70px;
+    color: #434343;
+    
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Inter';
+    text-align: justify;
+}
+
+.client-quote-2 h2{
+    position: absolute;
+    bottom: 10px;
+    font-family: 'Inter';
+    padding: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #434343;
+}
+
+@keyframes slide-45 {
+    0%{
+         margin-left: 35%;
+    }
+    100%{
+        margin-left: 45%;
+    }
+    
+}
+
+.client-quote-2:hover ~ .client-quote-2 {
+    margin-left: 40%;
+}
+.client-quote-2:hover ~ .client-quote-3 {
+    animation: slide-45 0.7s;
+   margin-left: 45%;
+}
+
+.client-quote-2:hover ~ .client-quote-4 {
+   margin-left: 50%;
+}
+
+.client-quote-2:hover ~ .client-quote-5 {
+   margin-left: 55%;
+}
+
+.client-quote-2:hover ~ .client-quote-6 {
+   margin-left: 60%;
+}
+
+
+
+
+.client-quote-3{
+    background-color: #fafafa;
+    margin-left: 15%;
+    z-index: 3;
+    position: absolute;
+    width: 35%;
+    height: 500px;
+    border-left: 5px solid rgb(0, 255, 34);
+    
+}
+
+.client-quote-3 p{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 70px;
+    color: #434343;
+    
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Inter';
+    text-align: justify;
+}
+
+.client-quote-3 h2{
+    font-family: 'Inter';
+    position: absolute;
+    bottom: 10px;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #434343;
+}
+
+
+@keyframes slide-50 {
+    0%{
+         margin-left: 35%;
+    }
+    100%{
+        margin-left: 50%;
+    }
+    
+}
+
+.client-quote-3:hover ~ .client-quote-2 {
+    margin-left: 40%;
+}
+.client-quote-3:hover ~ .client-quote-3 {
+   margin-left: 45%;
+}
+
+.client-quote-3:hover ~ .client-quote-4 {
+    animation: slide-50 0.7s;
+   margin-left: 50%;
+}
+
+.client-quote-3:hover ~ .client-quote-5 {
+   margin-left: 55%;
+}
+
+.client-quote-3:hover ~ .client-quote-6 {
+   margin-left: 60%;
+}
+
+
+
+
+
+
+
+.client-quote-4{
+    
+    background-color: #fafafa;
+
+    margin-left: 20%;
+    z-index: 4;
+    position: absolute;
+    height: 500px;
+    width: 35%;
+    border-left: 5px solid rgb(204, 255, 0);
+}
+.client-quote-4 p{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 70px;
+    color: #434343;
+    
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Inter';
+    text-align: justify;
+}
+
+.client-quote-4 h2{
+    font-family: 'Inter';
+    padding: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #434343;
+    position: absolute;
+    bottom: 10px;
+}
+
+@keyframes slide-55 {
+    0%{
+         margin-left: 35%;
+    }
+    100%{
+        margin-left: 55%;
+    }
+    
+}
+
+
+
+
+.client-quote-4:hover ~ .client-quote-2 {
+    margin-left: 40%;
+}
+.client-quote-4:hover ~ .client-quote-3 {
+   margin-left: 45%;
+}
+
+.client-quote-4:hover ~ .client-quote-4 {
+   margin-left: 50%;
+}
+
+.client-quote-4:hover ~ .client-quote-5 {
+    animation: slide-55 0.7s;
+   margin-left: 55%;
+}
+
+.client-quote-4:hover ~ .client-quote-6 {
+   margin-left: 60%;
+}
+
+
+
+
+.client-quote-5{
+    background-color: #fafafa;
+    margin-left: 25%;
+    z-index: 5;
+    position: absolute;
+    height: 500px;
+    width: 35%;
+    border-left: 5px solid rgb(255, 0, 247);
+}
+
+
+.client-quote-5 p{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 70px;
+    color: #434343;
+    
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Inter';
+    text-align: justify;
+}
+
+.client-quote-5 h2{
+    font-family: 'Inter';
+    padding: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #434343;
+    position: absolute;
+    bottom: 10px;
+}
+
+@keyframes slide-60 {
+    0%{
+         margin-left: 35%;
+    }
+    100%{
+        margin-left: 60%;
+    }
+    
+}
+.client-quote-1{
+    transition: margin-left 0.0s ease;
+}
+.client-quote-2{
+    transition: margin-left 0.0s ease;
+}
+.client-quote-3{
+    transition: margin-left 0.0s ease;
+}
+.client-quote-4{
+    transition: margin-left 0.0s linear;
+}
+
+.client-quote-5{
+    transition: margin-left 0.0s linear;
+}
+.client-quote-6{
+    transition: margin-left 0.0s linear;
+}
+.client-quote-5:hover ~ .client-quote-2 {
+   
+    margin-left: 40%;
+}
+.client-quote-5:hover ~ .client-quote-3 {
+   margin-left: 45%;
+}
+
+.client-quote-5:hover ~ .client-quote-4 {
+   margin-left: 50%;
+}
+
+.client-quote-5:hover ~ .client-quote-5 {
+   margin-left: 55%;
+}
+
+.client-quote-5:hover ~ .client-quote-6 {
+    animation: slide-60 0.7s;
+   margin-left: 60%;
+}
+
+
+
+.client-quote-6{
+    background-color:#fafafa;
+    margin-left: 30%;
+    z-index: 6;
+    position: absolute;
+    height: 500px;
+    width: 35%;
+    border-left: 5px solid rgb(255, 145, 0);
+}
+
+.client-quote-6 p{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 70px;
+    color: #434343;
+    
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Inter';
+    text-align: justify;
+}
+
+.client-quote-6 h2{
+    font-family: 'Inter';
+    padding: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #434343;
+    position: absolute;
+    bottom: 10px;
+}
